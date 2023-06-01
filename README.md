@@ -7,15 +7,18 @@ The MNIST dataset is often used as a starting point for learning and implementin
 
 
 Technologies used for  develop and implement the assignment.
+
 Python is widely used in this project due to its extensive library and framework.
 Scikit learn is used for wide range of algorithms and  tools for classification task. I used  scikitlearn libraries for the evaluation matrix.
 Matplotlib are used for creating visualizations and plot graphs.
 Keras is used  because it’s offers a user-friendly and flexible interface, supports various deep learning applications, and has a strong community and ecosystem, making it a popular choice for deep learning projects.
+
 Data Set
 Size and Structure: The MNIST dataset contains 60,000 training images and 10,000 testing images.
 These images are evenly split into 10 classes, representing the digits from 0 to 9.
 Each image is a 28x28-pixel grayscale image, meaning it has a resolution of 28 pixels in height and 28 pixels in width.
 The MNIST dataset is often used as a benchmark for evaluating and comparing the performance of machine learning and deep learning algorithms, especially for tasks like image classification. It provides a relatively simple and well-defined problem domain for testing algorithms and models.
+
 
 To solve an assignment using the MNIST dataset with an Artificial Neural Network (ANN), steps are as  follows:
 
@@ -29,6 +32,7 @@ Step 6: Evaluate the Model: Evaluate the trained model using the testing set. Fe
 
 After Evaluate the Model I do some experiment to find best no of node, layers , best optimizer and best 
 Activation function best on data set using hypermeter tuning with keras library.
+
 Step 1 : Best optimizer for MNIST data set is >>{'optimizer': 'rmsprop'}
 Step 2 : Right number of nureon is >> {'units': 340}
 Steps 3: Right numbe of  hidden layer is >> {'num_layers': 2}
